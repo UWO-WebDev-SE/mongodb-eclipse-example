@@ -34,9 +34,7 @@ public class Driver {
 		
 		MongoClient mongoClient = null;
 		try {
-			mongoClient = getMongoClient();
-			
-			// Now that we have the connection established, it's time to retrieve our database.			
+			mongoClient = getMongoClient();			
 			MongoDatabase mongoDB = mongoClient.getDatabase(config.getProperty("database"));
 			
 			// At this point, we can begin interacting with the database. The code below
