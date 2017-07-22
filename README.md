@@ -1,7 +1,7 @@
 # mongodb-eclipse-example
 An example of how to connect to a MongoDB database using Java.
 
-To run this project, clone it and open it in Eclipse. There should be no need for additional configuration.
+To run this project, clone it and open it in Eclipse. There should be no need for additional configuration outside the **config.properties** file.
 
 ## Mongo-Java Driver Information
 Most major releases are available for free download. You can visit the archive [here](http://central.maven.org/maven2/org/mongodb/mongo-java-driver). The source code of the driver is also hosted on GitHub and is found [here](https://github.com/mongodb/mongo-java-driver).
