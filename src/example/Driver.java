@@ -57,13 +57,11 @@ public class Driver {
 	
 	private static void silenceMongoLog() {
 		/* 
-		 * This method mutes the MongoDB Driver's log output. If you
-		 * want to view this output, simply comment out the call to
-		 * this method in the main() method.
+		 * This method mutes the MongoDB Driver's log output. If you want to view this output,
+		 * simply comment out the call to this method in the main() method.
 		 * 
-		 * Functionality note: setting the Logger's level to SEVERE
-		 * tells it to only display log messages of that level. You
-		 * can lower the level to loosen the filter.
+		 * Functionality note: setting the Logger's level to SEVERE tells it to only display
+		 * log messages of that level. You can lower the level to loosen the filter.
 		*/
 		Logger mongoLogger = Logger.getLogger("org.mongodb.driver");
 		mongoLogger.setLevel(Level.SEVERE);
